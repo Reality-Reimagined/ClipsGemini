@@ -144,10 +144,10 @@ function VideoProcessor() {
 
       <VideoUploader onUpload={handleFileUpload} />
 
-      <ProcessingOptions
+      {/* <ProcessingOptions
         options={processingOptions}
         setOptions={setProcessingOptions}
-      />
+      /> */}
 
       {clips.length > 0 && (
         <div className="animate-fadeIn">

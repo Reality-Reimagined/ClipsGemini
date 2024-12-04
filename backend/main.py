@@ -28,7 +28,7 @@ app = FastAPI()
 # Configure CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "https://sb1tjeckc-sayr--5173--fc837ba8.local-corp.webcontainer.io", "https://boisterous-treacle-a2525d.netlify.app"],
+    allow_origins=["http://localhost:5173","https://clipsgenerator.vercel.app/", "https://sb1tjeckc-sayr--5173--fc837ba8.local-corp.webcontainer.io", "https://boisterous-treacle-a2525d.netlify.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
